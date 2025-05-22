@@ -20,7 +20,7 @@
             border-radius: 10px;
             text-align: center;
             /*box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
-    
+
             height: 120px;
             display: flex;
             flex-direction: column;
@@ -77,7 +77,7 @@
 
         h5 {
             background-color: #f0f0f2;
-            font-size: 16px; 
+            font-size: 16px;
             padding: 10px;
             position:relative;
             top: 5px;
@@ -89,7 +89,7 @@
         }
 
         .card h6 {
-            font-size: 8px; 
+            font-size: 8px;
             text-align: left;
             min-height: 10px;
             display: flex;
@@ -132,17 +132,17 @@
         .status-borrowed {
             font-size: 12px;
             display: flex;
-            align-items: center; 
-            gap: 3px; 
-            flex-wrap: nowrap; 
-            line-height: 1.2; 
+            align-items: center;
+            gap: 3px;
+            flex-wrap: nowrap;
+            line-height: 1.2;
         }
     </style>
 </head>
 <body class="bg-light">
     <!-- Logo dan Header -->
     <div class="logo-container">
-        <img src="logocekdong.png" alt="Logo" class="logo-circle">
+        <img src="fotokamera/logocekdong.png" alt="Logo" class="logo-circle">
     </div>
     <h5 class="font-weight-bold mt-2">HomePage Teknisi</h5>
     <div class="container-fluid mt-3">
@@ -151,28 +151,28 @@
         <div class="row">
             <div class="col-3">
                 <div class="card">
-                    <img src="sonycinemaline.png" alt="Sony Cinema Line">
+                    <img src="fotokamera/sonycinemaline.png" alt="Sony Cinema Line">
                     <h6 class="mt-2">SONY Cinema Line</h6>
                     <p class="status-borrowed"><i class="bi bi-x-circle-fill text-danger"></i> Dipinjam, kembali pada 10/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="sonynp.png" alt="Sony NP">
+                    <img src="fotokamera/sonynp.png" alt="Sony NP">
                     <h6 class="mt-2">SONY NP-FZ100</h6>
                     <p class="status-borrowed"><i class="bi bi-x-circle-fill text-danger"></i> Dipinjam, kembali pada 10/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="sonyfe24.png" alt="Sony FE 24-70mm">
+                    <img src="fotokamera/sonyfe24.png" alt="Sony FE 24-70mm">
                     <h6 class="mt-2">SONY FE 24-70mm</h6>
                     <p class="status-borrowed"><i class="bi bi-x-circle-fill text-danger"></i> Dipinjam, kembali pada 10/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="sonymaximum.png" alt="Sony Maximum">
+                    <img src="fotokamera/sonymaximum.png" alt="Sony Maximum">
                     <h6 class="mt-2">Sony Maximum</h6>
                     <p class="status-borrowed"><i class="bi bi-x-circle-fill text-danger"></i> Dipinjam, kembali pada 10/12/24</p>
                 </div>
@@ -189,28 +189,28 @@
         <div class="row">
             <div class="col-3">
                 <div class="card">
-                    <img src="nikond7500.png" alt="Nikon D7500">
+                    <img src="fotokamera/nikond7500.png" alt="Nikon D7500">
                     <h6 class="mt-2">Nikon D7500</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="canonlens.png" alt="Canon Lens">
+                    <img src="fotokamera/canonlens.png" alt="Canon Lens">
                     <h6 class="mt-2">Canon Lens 18-135mm</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="sonycamcorder.png" alt="Sony Camcorder">
+                    <img src="fotokamera/sonycamcorder.png" alt="Sony Camcorder">
                     <h6 class="mt-2">Sony PXW-Z90T XDCAM camcorder</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="canoneos400d.png" alt="Canon EOS 4000D">
+                    <img src="fotokamera/canoneos400d.png" alt="Canon EOS 4000D">
                     <h6 class="mt-2">Canon EOS 4000D</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
@@ -219,28 +219,28 @@
         <div class="row">
             <div class="col-3">
                 <div class="card">
-                    <img src="instaxmini11.png" alt="Instax mini11">
+                    <img src="fotokamera/instaxmini11.png" alt="Instax mini11">
                     <h6 class="mt-2">Instax mini11</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="instaxslimgo.png" alt="Instax slim-go">
+                    <img src="fotokamera/instaxslimgo.png" alt="Instax slim-go">
                     <h6 class="mt-2">Instax slim-go</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="canoneos400d.png" alt="Canon EOS 80D">
+                    <img src="fotokamera/canoneos400d.png" alt="Canon EOS 80D">
                     <h6 class="mt-2">Canon EOS 80D</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img src="sonyzeiss.png" alt="Sony Zeiss">
+                    <img src="fotokamera/sonyzeiss.png" alt="Sony Zeiss">
                     <h6 class="mt-2">Sony Zeiss</h6>
                     <p class="status-pending"><i class="bi bi-check-circle-fill text-success"></i> Diajukan pada 2/12/24</p>
                 </div>
