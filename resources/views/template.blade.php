@@ -47,6 +47,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Latihan 3</a>
             </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/genteng">Genteng</a>
+            </li>
         </ul>
     </nav>
     <br>

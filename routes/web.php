@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\GentengDBController;
 
 //System.out.println
 Route::get('/', function () {
@@ -81,5 +82,12 @@ Route::post('/pegawai/store', [PegawaiDBController::class, 'store']); //jika for
 Route::get('/pegawai/edit/{id}',[PegawaiDBController::class, 'edit']);
 Route::post('/pegawai/update',[PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
-
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
+
+Route::get('/genteng', [GentengDBController::class, 'indexgenteng']);
+Route::get('/genteng/tambah', [GentengDBController::class, 'tambahgenteng']);
+Route::post('/genteng/store', [GentengDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::get('/genteng/edit/{id}',[GentengDBController::class, 'editgenteng']);
+Route::post('/genteng/update',[GentengDBController::class, 'update']);
+Route::get('/genteng/hapus/{id}', [GentengDBController::class, 'hapus']);
+Route::get('/genteng/cari', [GentengDBController::class, 'cari']);
