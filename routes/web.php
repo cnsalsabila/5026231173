@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\GentengDBController;
+use App\Http\Controllers\PageCounterController;
 
 //System.out.println
 Route::get('/', function () {
@@ -91,3 +92,5 @@ Route::get('/genteng/edit/{id}',[GentengDBController::class, 'editgenteng']);
 Route::post('/genteng/update',[GentengDBController::class, 'update']);
 Route::get('/genteng/hapus/{id}', [GentengDBController::class, 'hapus']);
 Route::get('/genteng/cari', [GentengDBController::class, 'cari']);
+
+Route::get('/pagecounter', [PageCounterController::class, 'indexpage']);
