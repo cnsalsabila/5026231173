@@ -7,6 +7,9 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\GentengDBController;
 use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\KeranjangBelanjaController;
+
 
 //System.out.println
 Route::get('/', function () {
@@ -70,7 +73,7 @@ Route::get('linktree', function () {
 });
 
 Route::get('index', function () {
-	return view('index');
+	return view('indexes');
 });
 
 Route::get('frontend', function () {
@@ -94,3 +97,16 @@ Route::get('/genteng/hapus/{id}', [GentengDBController::class, 'hapus']);
 Route::get('/genteng/cari', [GentengDBController::class, 'cari']);
 
 Route::get('/pagecounter', [PageCounterController::class, 'indexpage']);
+
+Route::get('/karyawan', [KaryawanDBController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::get('/karyawan/edit/{id}',[KaryawanDBController::class, 'edit']);
+Route::post('/karyawan/update',[KaryawanDBController::class, 'update']);
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
+
+Route::get('/keranjangbelanja', [KeranjangBelanjaController::class,'index3']);
+Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class,'tambah3']);
+Route::post('/keranjangbelanja/store', [KeranjangBelanjaController::class,'store']);
+Route::post('/keranjangbelanja/update', [KeranjangBelanjaController::class,'update']);
+Route::get('/keranjangbelanja/hapus/{id}',[KeranjangBelanjaController::class,'hapus']);
