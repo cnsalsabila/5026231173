@@ -14,7 +14,7 @@ class MykaryawanController extends Controller {
     	return view('indexmykaryawan',['mykaryawan' => $mykaryawan]);
     }
 
-    public function edit(){
+    public function edit($kodepegawai){
 
         // mengambil data pegawai berdasarkan id yang dipilih
 	    $mykaryawan = DB::table('mykaryawan')->where('kodepegawai',$kodepegawai)->get();

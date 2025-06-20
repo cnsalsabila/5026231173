@@ -5,7 +5,7 @@
     <h3>Detail Karyawan</h3>
     <div class="form-group">
         <label>Kode Pegawai</label>
-        <input type="text" class="form-control" value="{{ $m->kodepegawai }}" readonly>
+        <input type="text" class="form-control" value="{{ $mykaryawan->kodepegawai }}" readonly>
     </div>
     <div class="form-group">
         <label>Nama Lengkap</label>

@@ -6,7 +6,7 @@
     <br><br>
 
     @foreach ($mykaryawan as $m)
-        <form action="/eas/edit" method="post">
+        <form action="/eas/update" method="post">
             {{ csrf_field() }}
             <div class="row p-1 mb-1">
                 <div class="col-2">
