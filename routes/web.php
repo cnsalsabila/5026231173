@@ -9,6 +9,7 @@ use App\Http\Controllers\GentengDBController;
 use App\Http\Controllers\PageCounterController;
 use App\Http\Controllers\KaryawanDBController;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\MykaryawanController;
 
 
 //System.out.println
@@ -110,3 +111,8 @@ Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class,'tamba
 Route::post('/keranjangbelanja/store', [KeranjangBelanjaController::class,'store']);
 Route::post('/keranjangbelanja/update', [KeranjangBelanjaController::class,'update']);
 Route::get('/keranjangbelanja/hapus/{id}',[KeranjangBelanjaController::class,'hapus']);
+
+Route::get('/eas', [MykaryawanController::class, 'index']);
+Route::get('/eas/edit/{kodepegawai}', [MykaryawanController::class, 'edit']);
+Route::post('/eas/update', [MykaryawanController::class, 'update']);
+Route::get('/eas/view/{kodepegawai}', [MykaryawanController::class, 'view']);
